@@ -5,7 +5,7 @@ included in this project!!!
 
 ## Put my public vagrant files here. These are:
 
-* `edlab/ubuntujava71` - this is a box we use in our local development environment. It is **NOT MEANT FOR PRODUCTION**.
+* `tzaffi/ubuntujava71` - this is a box we use in our local development environment. It is **NOT MEANT FOR PRODUCTION**.
     * which is based on `marruda/trusty64-java-all` and consists of:
         * Ubuntu 14.04.2 (trusty)
         * Java 1.7.79
