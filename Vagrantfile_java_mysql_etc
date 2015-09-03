@@ -10,6 +10,15 @@ Vagrant.configure(2) do |config|
   # For a complete reference, please see the online documentation at
   # https://docs.vagrantup.com.
 
+  # Push this image to atlas as below:
+  #config.push.define "atlas" do |push|
+  #  push.app = "tzaffi/ubuntujava71"
+  #end
+
+  config.vm.provider "virtualbox" do |v|
+    v.name = "ubuntujava71"
+  end
+
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
   # Marruda's box has Java 7, Ubuntu 14.04.2 (trusty), Java 1.7.79, Maven 3.0.5, and Git 1.9.1:
