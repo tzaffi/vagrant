@@ -46,3 +46,6 @@ or by calling the provided `setup_forwarded_ports` command
 
 4. Follow the [instructions for creating boxes via the Web UI](https://atlas.hashicorp.com/help/vagrant/boxes/create#creating-boxes-via-the-atlas-web-interface)
 
+5. Be sure to **RELEASE** the box. You do this by going to the **Versions** section of the box settings in your Atlas accounting and then clicking on the **Release** button.
+
+
